@@ -1,0 +1,8 @@
+Skipping '../../data/*1.fastq.gz' which didn't exist, or couldn't be read
+Skipping '../../data/*2.fastq.gz' which didn't exist, or couldn't be read
+[WARNING]         multiqc : MultiQC Version v1.28 now available!
+[INFO   ]         multiqc : This is MultiQC v1.9
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching   : /home/FCAM/fgazeyoglu/finalproject5312/results/02_qc/fastqc_raw
+[WARNING]         multiqc : No analysis results found. Cleaning up..
+[INFO   ]         multiqc : MultiQC complete

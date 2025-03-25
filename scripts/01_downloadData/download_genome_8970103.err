@@ -1,0 +1,7 @@
+--2025-03-25 14:26:35--  https://ftp.ncbi.nlm.nih.gov/genomes/all/HF/674/912/HF674912.fna.gz
+Resolving ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)... 130.14.250.11, 130.14.250.12, 130.14.250.13, ...
+Connecting to ftp.ncbi.nlm.nih.gov (ftp.ncbi.nlm.nih.gov)|130.14.250.11|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-03-25 14:26:35 ERROR 404: Not Found.
+
+gzip: *gz.gz: No such file or directory
