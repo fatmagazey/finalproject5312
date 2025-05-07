@@ -1,0 +1,11 @@
+Looking to launch executable "/isg/shared/apps/bwa-mem2/2.1/bwa-mem2.avx512bw", simd = .avx512bw
+Launching executable "/isg/shared/apps/bwa-mem2/2.1/bwa-mem2.avx512bw"
+[bwa_index] Pack FASTA... 0.00 sec
+* Entering FMI_search
+init ticks = 9087666
+ref seq len = 3402
+binary seq ticks = 4192734
+build suffix-array ticks = 1871728
+pos: 426, ref_seq_len__: 425
+build fm-index ticks = 19688790
+Total time taken: 0.0592

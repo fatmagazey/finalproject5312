@@ -1,0 +1,9 @@
+[WARNING]         multiqc : MultiQC Version v1.28 now available!
+[INFO   ]         multiqc : This is MultiQC v1.9
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching   : /home/FCAM/fgazeyoglu/finalproject5312/results/04_alignQC/samstats
+[INFO   ]        samtools : Found 33 stats reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : ../../results/04_alignQC/samstats/multiqc/multiqc_report.html
+[INFO   ]         multiqc : Data        : ../../results/04_alignQC/samstats/multiqc/multiqc_data
+[INFO   ]         multiqc : MultiQC complete

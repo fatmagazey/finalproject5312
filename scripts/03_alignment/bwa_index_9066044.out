@@ -1,0 +1,8 @@
+xanadu-66
+Tue May  6 21:06:43 EDT 2025
+ref_seq_len = 3402
+count = 0, 1002, 1701, 2400, 3402
+BWT[821] = 4
+CP_SHIFT = 6, CP_MASK = 63
+sizeof CP_OCC = 64
+max_occ_ind = 53

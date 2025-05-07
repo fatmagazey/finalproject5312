@@ -1,0 +1,36 @@
+samblaster: Version 0.1.24
+Looking to launch executable "/isg/shared/apps/bwa-mem2/2.1/bwa-mem2.avx512bw", simd = .avx512bw
+samblaster: Inputting from stdin
+samblaster: Outputting to stdout
+Launching executable "/isg/shared/apps/bwa-mem2/2.1/bwa-mem2.avx512bw"
+-----------------------------
+Executing in AVX512 mode!!
+-----------------------------
+* SA compression enabled with xfactor: 8
+* Ref file: ../../results/03_Alignment/bwa_index/AI
+* Entering FMI_search
+* Index file found. Loading index from ../../results/03_Alignment/bwa_index/AI.bwt.2bit.64
+* Reference seq len for bi-index = 3403
+* sentinel-index: 821
+* Count:
+0,	1
+1,	1003
+2,	1702
+3,	2401
+4,	3403
+
+* Reading other elements of the index from files ../../results/03_Alignment/bwa_index/AI
+* Index prefix: ../../results/03_Alignment/bwa_index/AI
+* Read 0 ALT contigs
+* Done reading Index!!
+* Reading reference genome..
+* Binary seq file = ../../results/03_Alignment/bwa_index/AI.0123
+* Reference genome size: 3402 bp
+* Done reading reference genome !!
+
+[E::main_mem] fail to open file `../../results/02_qc/trimmed_fastq/SRR25266132_trim.1.fq.gz'.
+samblaster: Input file is empty. Exiting.
+
+[main_samview] fail to read the header from "-".
+samtools sort: failed to read header from "-"
+samtools index: "../../results/03_Alignment/bwa_align/SRR25266132.bam" is in a format that cannot be usefully indexed
