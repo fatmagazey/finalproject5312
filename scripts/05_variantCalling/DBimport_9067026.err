@@ -1,0 +1,11 @@
+Using GATK jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=1 -Xmx10g -Xms4g -jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar GenomicsDBImport --genomicsdb-workspace-path ../../results/05_variantCalling/gatk/db --overwrite-existing-genomicsdb-workspace true -L chr20 --arguments_file ../../results/05_variantCalling/gatk/args.txt
+[May 7, 2025 8:43:30 AM EDT] org.broadinstitute.hellbender.tools.genomicsdb.GenomicsDBImport done. Elapsed time: 0.02 minutes.
+Runtime.totalMemory()=4656201728
+***********************************************************************
+
+A USER ERROR has occurred: Badly formed genome unclippedLoc: Query interval "chr20" is not valid for this input.
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.

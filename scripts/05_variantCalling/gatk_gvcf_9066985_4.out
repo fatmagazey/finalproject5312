@@ -1,0 +1,50 @@
+xanadu-49
+Wed May  7 08:41:24 EDT 2025
+08:41:26.910 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+08:41:27.037 INFO  HaplotypeCaller - ------------------------------------------------------------
+08:41:27.037 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.0.0.0
+08:41:27.037 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+08:41:27.037 INFO  HaplotypeCaller - Executing as fgazeyoglu@xanadu-49 on Linux v3.10.0-1062.12.1.el7.x86_64 amd64
+08:41:27.037 INFO  HaplotypeCaller - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_92-b14
+08:41:27.037 INFO  HaplotypeCaller - Start Date/Time: May 7, 2025 8:41:26 AM EDT
+08:41:27.037 INFO  HaplotypeCaller - ------------------------------------------------------------
+08:41:27.037 INFO  HaplotypeCaller - ------------------------------------------------------------
+08:41:27.038 INFO  HaplotypeCaller - HTSJDK Version: 2.13.2
+08:41:27.038 INFO  HaplotypeCaller - Picard Version: 2.17.2
+08:41:27.038 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 1
+08:41:27.038 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+08:41:27.038 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+08:41:27.038 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+08:41:27.038 INFO  HaplotypeCaller - Deflater: IntelDeflater
+08:41:27.038 INFO  HaplotypeCaller - Inflater: IntelInflater
+08:41:27.038 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+08:41:27.039 INFO  HaplotypeCaller - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+08:41:27.039 INFO  HaplotypeCaller - Initializing engine
+08:41:27.514 INFO  HaplotypeCaller - Done initializing engine
+08:41:27.520 INFO  HaplotypeCallerEngine - Standard Emitting and Calling confidence set to 0.0 for reference-model confidence output
+08:41:27.520 INFO  HaplotypeCallerEngine - All sites annotated with PLs forced to true for reference-model confidence output
+08:41:28.218 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+08:41:28.232 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+08:41:28.294 WARN  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+08:41:28.294 INFO  IntelPairHmm - Available threads: 7
+08:41:28.295 INFO  IntelPairHmm - Requested threads: 4
+08:41:28.295 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+08:41:28.349 INFO  ProgressMeter - Starting traversal
+08:41:28.349 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Regions Processed   Regions/Minute
+08:41:31.020 INFO  HaplotypeCaller - 193 read(s) filtered by: ((((((((MappingQualityReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter) AND NonZeroReferenceLengthAlignmentReadFilter) AND GoodCigarReadFilter) AND WellformedReadFilter)
+  193 read(s) filtered by: (((((((MappingQualityReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter) AND NonZeroReferenceLengthAlignmentReadFilter) AND GoodCigarReadFilter)
+      193 read(s) filtered by: ((((((MappingQualityReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter) AND NonZeroReferenceLengthAlignmentReadFilter)
+          193 read(s) filtered by: (((((MappingQualityReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter) AND NotDuplicateReadFilter) AND PassesVendorQualityCheckReadFilter)
+              193 read(s) filtered by: ((((MappingQualityReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter) AND NotDuplicateReadFilter)
+                  1 read(s) filtered by: (((MappingQualityReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter) AND NotSecondaryAlignmentReadFilter)
+                      1 read(s) filtered by: ((MappingQualityReadFilter AND MappingQualityAvailableReadFilter) AND MappedReadFilter)
+                          1 read(s) filtered by: (MappingQualityReadFilter AND MappingQualityAvailableReadFilter)
+                              1 read(s) filtered by: MappingQualityReadFilter 
+                  192 read(s) filtered by: NotDuplicateReadFilter 
+
+08:41:31.031 INFO  ProgressMeter -      HF674912.1:1651              0.0                    10            223.7
+08:41:31.031 INFO  ProgressMeter - Traversal complete. Processed 10 total regions in 0.0 minutes.
+08:41:31.042 INFO  VectorLoglessPairHMM - Time spent in setup for JNI call : 0.0037543060000000002
+08:41:31.042 INFO  PairHMM - Total compute time in PairHMM computeLogLikelihoods() : 0.16921471600000002
+08:41:31.042 INFO  SmithWatermanAligner - Total compute time in java Smith-Waterman : 0.40 sec
+08:41:31.042 INFO  HaplotypeCaller - Shutting down engine

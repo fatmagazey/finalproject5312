@@ -1,0 +1,89 @@
+LOCUS       HF674912                1701 bp    RNA     linear   VRL 30-MAY-2013
+DEFINITION  Influenza A virus (A/Swine/Spain/80598LP4/2007(H1N2)) segment 4, HA
+            gene for hemagglutinin, genomic RNA.
+ACCESSION   HF674912
+VERSION     HF674912.1
+KEYWORDS    .
+SOURCE      Influenza A virus (A/swine/Spain/80598-LP4/2007(H1N2))
+  ORGANISM  Influenza A virus (A/swine/Spain/80598-LP4/2007(H1N2))
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Alphainfluenzavirus; Alphainfluenzavirus
+            influenzae.
+REFERENCE   1
+  AUTHORS   Baratelli,M., Cordoba,L., Perez,L.J., Maldonado,J., Fraile,L.,
+            Nunez,J.I. and Montoya,M.
+  TITLE     Genetic characterization of Swine Influenza A viruses isolated in
+            north-east Spain during the period 2006-2007
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1701)
+  AUTHORS   Baratelli,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JAN-2013) Centre de Recerca en Sanitat Animal
+            (CReSA), Endemovir, Edifici CReSA, Campus UAB, Bellaterra, 08193,
+            SPAIN
+FEATURES             Location/Qualifiers
+     source          1..1701
+                     /organism="Influenza A virus
+                     (A/swine/Spain/80598-LP4/2007(H1N2))"
+                     /mol_type="genomic RNA"
+                     /strain="A/Swine/Spain/80598LP4/2007"
+                     /serotype="H1N2"
+                     /isolation_source="lung"
+                     /host="Swine"
+                     /db_xref="taxon:502956"
+                     /segment="4"
+                     /lab_host="chicken embryos 1p and MDCKs 1p"
+                     /geo_loc_name="Spain:Catalonia"
+                     /note="isolated and serotyped by Jaime Maldonado,
+                     Laboratorios HIPRA S.A., Girona-Spain"
+     gene            1..1701
+                     /gene="HA"
+     CDS             1..1701
+                     /gene="HA"
+                     /codon_start=1
+                     /product="hemagglutinin"
+                     /protein_id="CCQ71983.1"
+                     /translation="MKAKLLILLCALSATDADTICIGYHANNSTDTVDTILEKNVTVT
+                     HSVNLLEDSHNGKLCRLRGVAPLQLGKCSIAGWILGNPECEPLFSKKSWSYIAETPNP
+                     ENGICYPGYFSDYEELREQLSSVSSFERFEIFPKENSWPKHNANKGVTKSCSHKGQSS
+                     FYRNLIWLTEKNGSYPNLSKSYMNNKRKEVLVLWGVHHPSNIEDQMAIYRKETAYVSV
+                     VSSHYNRRYTPEITRRTKVRDQEGRINYYWTLLEPEDTITFEANGNLIAPWYAFALSR
+                     GSRSGIIVSNASMDECDAKCQTPQGAINSSLPFQNVHPFTIGECPKYVRSTKLRMVTG
+                     LRNIPSIQSRGLFGAIAGFIEGGWTGMIDGWYGYHHQNEQGSGYAADQKSTQNAINGI
+                     TTKVNSVIEKMNTQFTAVGKEFNKLEKRMENLNKKVDDGFLDIWTYNAELLVLLENER
+                     TLDFHDSNVKSLYERVRGQLKNNAKEIGNGCFEFYHKCNNECMESVKNGTYDYPKYSE
+                     ESKLNREKIDGVELKSMGVYQILAIYSTIASSLVLLVSLGATSFWMCSNGSLQCRICI
+                     "
+ORIGIN      
+        1 atgaaagcta aactactaat cttattatgt gcactttcag ctacggatgc agacacaata
+       61 tgtattggct accatgcgaa caattcaacc gacactgttg acacaatcct cgagaagaat
+      121 gtgacagtaa cacactctgt caacctactt gaggacagtc acaatggaaa actatgtaga
+      181 ctgagagggg tagccccatt acaattgggg aagtgcagca tcgctggatg gatcttagga
+      241 aacccagaat gtgaaccact gttttctaag aaatcatggt cctatattgc agaaacacca
+      301 aaccctgaga atggaatatg ttacccaggg tatttctccg actatgagga gctgagggag
+      361 caattgagtt cagtatcatc atttgagagg ttcgaaatat tccccaaaga aaattcatgg
+      421 cccaaacaca acgcaaacaa aggagtaact aaatcatgct cccacaaggg acaaagcagc
+      481 ttttatagaa atttaatatg gctaacggag aaaaatggtt cttacccaaa cctgagcaag
+      541 tcctatatga acaacaaaag gaaagaagtc cttgtgctat ggggtgtcca ccacccgtct
+      601 aacatagagg accaaatggc catctaccgt aaagaaactg cttatgtttc tgtagtgtcc
+      661 tcgcactaca acaggaggta caccccagaa attacaagaa gaaccaaagt aagagatcaa
+      721 gaagggagaa ttaactacta ctggactctg ctggaacccg aggacacaat aacatttgag
+      781 gcaaatggga atttgatagc gccatggtat gcttttgcac tgagcagagg ctctagatca
+      841 ggaatcatcg tctcaaatgc atcgatggat gagtgtgacg cgaagtgtca aacacctcag
+      901 ggggcaataa acagtagtct tccctttcag aatgtacatc catttacaat aggagaatgc
+      961 ccaaagtacg taaggagtac aaaactaagg atggttacag gactaaggaa cattccatcc
+     1021 attcaatcca gaggtctatt tggagccatt gctggtttca ttgaaggggg atggaccgga
+     1081 atgatagatg gatggtatgg ttatcatcat cagaatgaac agggatctgg ctatgctgcg
+     1141 gatcaaaaaa gcacacaaaa tgccattaat gggattacaa ccaaagtgaa ctctgtgata
+     1201 gagaaaatga acactcaatt cacagctgta ggcaaggaat tcaataaatt agaaaaaagg
+     1261 atggaaaact tgaataaaaa ggttgatgat ggttttctgg acatttggac gtataatgca
+     1321 gaattgttgg ttctgctgga gaatgaaagg actttagatt ttcatgactc aaatgtgaag
+     1381 agtttatatg aacgggtaag aggccaatta aagaacaacg ccaaagaaat aggaaacggg
+     1441 tgttttgaat tttaccataa atgtaacaat gaatgcatgg aaagtgtaaa aaatggaact
+     1501 tatgactacc caaaatactc agaggaatca aagttaaaca gggaaaaaat tgacggagta
+     1561 gaattgaaat caatgggagt ctaccagatt ctagcgatct attcaacgat cgccagttca
+     1621 ctggtgcttt tagtctccct gggggcaacc agcttttgga tgtgttctaa tgggtctttg
+     1681 cagtgcagaa tatgcatctg a
+//
+

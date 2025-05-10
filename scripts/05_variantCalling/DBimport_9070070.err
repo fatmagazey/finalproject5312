@@ -1,0 +1,6 @@
+Using GATK jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=1 -Xmx10g -Xms4g -jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar GenomicsDBImport --genomicsdb-workspace-path ../../results/05_variantCalling/gatk/db --overwrite-existing-genomicsdb-workspace true -L HF674912.1 --arguments_file ../../results/05_variantCalling/gatk/args.txt
+Created workspace /home/FCAM/fgazeyoglu/finalproject5312/scripts/05_variantCalling/../../results/05_variantCalling/gatk/db
+[May 7, 2025 8:55:24 PM EDT] org.broadinstitute.hellbender.tools.genomicsdb.GenomicsDBImport done. Elapsed time: 0.06 minutes.
+Runtime.totalMemory()=4513595392

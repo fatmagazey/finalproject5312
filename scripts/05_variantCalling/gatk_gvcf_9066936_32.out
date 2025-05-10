@@ -1,0 +1,23 @@
+xanadu-54
+Wed May  7 08:33:39 EDT 2025
+08:33:42.527 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+08:33:42.648 INFO  HaplotypeCaller - ------------------------------------------------------------
+08:33:42.648 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.0.0.0
+08:33:42.648 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+08:33:42.648 INFO  HaplotypeCaller - Executing as fgazeyoglu@xanadu-54 on Linux v3.10.0-1062.12.1.el7.x86_64 amd64
+08:33:42.648 INFO  HaplotypeCaller - Java runtime: Java HotSpot(TM) 64-Bit Server VM v1.8.0_92-b14
+08:33:42.648 INFO  HaplotypeCaller - Start Date/Time: May 7, 2025 8:33:42 AM EDT
+08:33:42.648 INFO  HaplotypeCaller - ------------------------------------------------------------
+08:33:42.648 INFO  HaplotypeCaller - ------------------------------------------------------------
+08:33:42.649 INFO  HaplotypeCaller - HTSJDK Version: 2.13.2
+08:33:42.649 INFO  HaplotypeCaller - Picard Version: 2.17.2
+08:33:42.649 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 1
+08:33:42.649 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+08:33:42.649 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+08:33:42.649 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+08:33:42.649 INFO  HaplotypeCaller - Deflater: IntelDeflater
+08:33:42.649 INFO  HaplotypeCaller - Inflater: IntelInflater
+08:33:42.649 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+08:33:42.649 INFO  HaplotypeCaller - Using google-cloud-java patch 6d11bef1c81f885c26b2b56c8616b7a705171e4f from https://github.com/droazen/google-cloud-java/tree/dr_all_nio_fixes
+08:33:42.649 INFO  HaplotypeCaller - Initializing engine
+08:33:42.689 INFO  HaplotypeCaller - Shutting down engine

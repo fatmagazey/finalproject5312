@@ -1,0 +1,11 @@
+Using GATK jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=1 -jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar HaplotypeCaller -R ../../genome/sequence.fasta -I ../../results/03_Alignment/bwa_align//.bam -ERC GVCF --output ../../results/05_variantCalling/gatk/.g.vcf
+[May 7, 2025 8:33:42 AM EDT] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=1578631168
+***********************************************************************
+
+A USER ERROR has occurred: Couldn't read file. Error was: ../../results/03_Alignment/bwa_align/.bam with exception: Cannot read non-existent file: /home/FCAM/fgazeyoglu/finalproject5312/scripts/05_variantCalling/../../results/03_Alignment/bwa_align/.bam
+
+***********************************************************************
+Set the system property GATK_STACKTRACE_ON_USER_EXCEPTION (--java-options '-DGATK_STACKTRACE_ON_USER_EXCEPTION=true') to print the stack trace.

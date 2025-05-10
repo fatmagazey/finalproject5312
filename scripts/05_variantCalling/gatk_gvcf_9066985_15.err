@@ -1,0 +1,5 @@
+Using GATK jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=1 -jar /isg/shared/apps/GATK/4.0/gatk-package-4.0.0.0-local.jar HaplotypeCaller -R ../../genome/sequence.fasta -I ../../results/03_Alignment/bwa_align//SRR25266126.bam -ERC GVCF --output ../../results/05_variantCalling/gatk/SRR25266126.g.vcf
+[May 7, 2025 8:41:29 AM EDT] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 0.04 minutes.
+Runtime.totalMemory()=2444754944
